@@ -1,48 +1,27 @@
 import os
-from os.path import isfile, join
-import functools
+import pickle
 import csv
 
 script_dir = os.path.dirname(__file__)
 folder_dir = 'transformed_data'
+window = 5
 
-# data_files = [f for f in os.listdir('{0}{1}'.format(script_dir, folder_dir)) if isfile(join(script_dir, folder_dir, f))]
-data_files = ['Arsenal', 'Manchester_United']
-data_set = {}
+with open('{0}{1}/data_set'.format(script_dir, folder_dir), 'rb') as source_file:
+    input_list = pickle.load(source_file)
 
+usable_data = list(filter(lambda record: record['season'] > 2007, input_list))
 
-def reduce_helper(tuple, accumulator):
-    print(accumulator)
-    print(tuple)
-    accumulator[tuple[0]] = tuple[1]
-    return accumulator
+def get_head_to_head_record(index, target_team, opponent, window):
+    related_record = [record for record in input_list if (
+        record['target_team'] == target_team
+        and record['opponent'] == opponent
+        and record['index'] > index
+    )]
+    return sorted(related_record, key=lambda k: k['index'])[0: min(len(related_record), window)]
 
-
-for file_name in data_files:
-    data_set[file_name] = []
-    with open('{0}{1}/{2}.csv'.format(script_dir, folder_dir, file_name), 'r') as source_file:
-        csv_reader = csv.DictReader(source_file)
-        for row in csv_reader:
-            del row['']
-            data_set[file_name].append(dict(row))
-
-
-def trend_generator(data, window=5):
-    for index in range(window, len(data)):
-        win_track = 0
-        lose_track = 0
-        for window_index in range(0, window):
-            win_track = (win_track + 1) if float(data[index - window + window_index]['margin']) > 0 else 0
-            lose_track = (lose_track + 1) if float(data[index - window + window_index]['margin']) < 0 else 0
-        data[index]['win_track'] = win_track
-        data[index]['lose_track'] = lose_track
-
-
-trend_generator(data_set['Arsenal'])
-print(data_set['Arsenal'])
-# trend_generator(data_set['Arsenal'])
-# print(data_set['Arsenal'])
-
-
-# print(manchester_united_data)
-# print(arsenal_data)
+def get_team_momentum(index, target_team, window):
+    related_record = [record for record in input_list if (
+        record['target_team'] == target_team
+        and record['index'] > index
+    )]
+    return sorted(related_record, key=lambda k: k['index'])[0: min(len(related_record), window)]
