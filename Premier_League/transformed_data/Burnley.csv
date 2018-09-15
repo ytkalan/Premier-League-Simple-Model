@@ -1,0 +1,153 @@
+,concede,goal,margin,mode,opponent,season
+0,2.0,0.0,-2.0,A,Stoke City,2009
+1,0.0,1.0,1.0,H,Manchester United,2009
+2,0.0,1.0,1.0,H,Everton,2009
+3,3.0,0.0,-3.0,A,Chelsea,2009
+4,4.0,0.0,-4.0,A,Liverpool,2009
+5,1.0,3.0,2.0,H,Sunderland,2009
+6,5.0,0.0,-5.0,A,Tottenham Hotspur,2009
+7,1.0,2.0,1.0,H,Birmingham City,2009
+8,3.0,2.0,-1.0,A,Blackburn Rovers,2009
+9,3.0,1.0,-2.0,H,Wigan Athletic,2009
+10,0.0,2.0,2.0,H,Hull City,2009
+11,3.0,3.0,-0.0,A,Manchester City,2009
+12,1.0,1.0,0.0,H,Aston Villa,2009
+13,5.0,3.0,-2.0,A,West Ham United,2009
+14,2.0,0.0,-2.0,A,Portsmouth,2009
+15,1.0,1.0,0.0,H,Fulham,2009
+16,1.0,1.0,0.0,H,Arsenal,2009
+17,2.0,0.0,-2.0,A,Wolverhampton Wanderers,2009
+18,1.0,1.0,0.0,H,Bolton Wanderers,2009
+19,2.0,0.0,-2.0,A,Everton,2009
+20,3.0,0.0,-3.0,A,Manchester United,2009
+21,1.0,0.0,-1.0,A,Bolton Wanderers,2009
+22,2.0,1.0,-1.0,H,Chelsea,2009
+23,1.0,2.0,1.0,H,West Ham United,2009
+24,3.0,0.0,-3.0,A,Fulham,2009
+25,5.0,2.0,-3.0,A,Aston Villa,2009
+26,2.0,1.0,-1.0,H,Portsmouth,2009
+27,3.0,1.0,-2.0,A,Arsenal,2009
+28,1.0,1.0,0.0,H,Stoke City,2009
+29,2.0,1.0,-1.0,H,Wolverhampton Wanderers,2009
+30,1.0,0.0,-1.0,A,Wigan Athletic,2009
+31,1.0,0.0,-1.0,H,Blackburn Rovers,2009
+32,6.0,1.0,-5.0,H,Manchester City,2009
+33,1.0,4.0,3.0,A,Hull City,2009
+34,2.0,1.0,-1.0,A,Sunderland,2009
+35,4.0,0.0,-4.0,H,Liverpool,2009
+36,2.0,1.0,-1.0,A,Birmingham City,2009
+37,2.0,4.0,2.0,H,Tottenham Hotspur,2009
+38,3.0,1.0,-2.0,H,Chelsea,2014
+39,1.0,0.0,-1.0,A,Swansea City,2014
+40,0.0,0.0,0.0,H,Manchester United,2014
+41,0.0,0.0,-0.0,A,Crystal Palace,2014
+42,0.0,0.0,0.0,H,Sunderland,2014
+43,4.0,0.0,-4.0,A,West Bromwich Albion,2014
+44,2.0,2.0,-0.0,A,Leicester City,2014
+45,3.0,1.0,-2.0,H,West Ham United,2014
+46,3.0,1.0,-2.0,H,Everton,2014
+47,3.0,0.0,-3.0,A,Arsenal,2014
+48,0.0,1.0,1.0,H,Hull City,2014
+49,1.0,2.0,1.0,A,Stoke City,2014
+50,1.0,1.0,0.0,H,Aston Villa,2014
+51,1.0,1.0,0.0,H,Newcastle United,2014
+52,2.0,0.0,-2.0,A,Queens Park Rangers,2014
+53,0.0,1.0,1.0,H,Southampton,2014
+54,2.0,1.0,-1.0,A,Tottenham Hotspur,2014
+55,1.0,0.0,-1.0,H,Liverpool,2014
+56,2.0,2.0,-0.0,A,Manchester City,2014
+57,3.0,3.0,-0.0,A,Newcastle United,2014
+58,1.0,2.0,1.0,H,Queens Park Rangers,2014
+59,3.0,2.0,-1.0,H,Crystal Palace,2014
+60,2.0,0.0,-2.0,A,Sunderland,2014
+61,2.0,2.0,0.0,H,West Bromwich Albion,2014
+62,3.0,1.0,-2.0,A,Manchester United,2014
+63,1.0,1.0,-0.0,A,Chelsea,2014
+64,1.0,0.0,-1.0,H,Swansea City,2014
+65,2.0,0.0,-2.0,A,Liverpool,2014
+66,0.0,1.0,1.0,H,Manchester City,2014
+67,2.0,0.0,-2.0,A,Southampton,2014
+68,0.0,0.0,0.0,H,Tottenham Hotspur,2014
+69,1.0,0.0,-1.0,H,Arsenal,2014
+70,1.0,0.0,-1.0,A,Everton,2014
+71,1.0,0.0,-1.0,H,Leicester City,2014
+72,1.0,0.0,-1.0,A,West Ham United,2014
+73,0.0,1.0,1.0,A,Hull City,2014
+74,0.0,0.0,0.0,H,Stoke City,2014
+75,0.0,1.0,1.0,A,Aston Villa,2014
+76,1.0,0.0,-1.0,H,Swansea City,2016
+77,0.0,2.0,2.0,H,Liverpool,2016
+78,3.0,0.0,-3.0,A,Chelsea,2016
+79,1.0,1.0,0.0,H,Hull City,2016
+80,3.0,0.0,-3.0,A,Leicester City,2016
+81,0.0,2.0,2.0,H,Watford,2016
+82,1.0,0.0,-1.0,H,Arsenal,2016
+83,3.0,1.0,-2.0,A,Southampton,2016
+84,1.0,2.0,1.0,H,Everton,2016
+85,0.0,0.0,-0.0,A,Manchester United,2016
+86,2.0,3.0,1.0,H,Crystal Palace,2016
+87,4.0,0.0,-4.0,A,West Bromwich Albion,2016
+88,2.0,1.0,-1.0,H,Manchester City,2016
+89,2.0,0.0,-2.0,A,Stoke City,2016
+90,2.0,3.0,1.0,H,AFC Bournemouth,2016
+91,1.0,0.0,-1.0,A,West Ham United,2016
+92,2.0,1.0,-1.0,A,Tottenham Hotspur,2016
+93,0.0,1.0,1.0,H,Middlesbrough,2016
+94,1.0,4.0,3.0,H,Sunderland,2016
+95,2.0,1.0,-1.0,A,Manchester City,2016
+96,0.0,1.0,1.0,H,Southampton,2016
+97,2.0,1.0,-1.0,A,Arsenal,2016
+98,0.0,1.0,1.0,H,Leicester City,2016
+99,2.0,1.0,-1.0,A,Watford,2016
+100,1.0,1.0,0.0,H,Chelsea,2016
+101,1.0,1.0,-0.0,A,Hull City,2016
+102,3.0,2.0,-1.0,A,Swansea City,2016
+103,2.0,1.0,-1.0,A,Liverpool,2016
+104,0.0,0.0,-0.0,A,Sunderland,2016
+105,2.0,0.0,-2.0,H,Tottenham Hotspur,2016
+106,0.0,1.0,1.0,H,Stoke City,2016
+107,0.0,0.0,-0.0,A,Middlesbrough,2016
+108,3.0,1.0,-2.0,A,Everton,2016
+109,2.0,0.0,-2.0,H,Manchester United,2016
+110,0.0,2.0,2.0,A,Crystal Palace,2016
+111,2.0,2.0,0.0,H,West Bromwich Albion,2016
+112,2.0,1.0,-1.0,A,AFC Bournemouth,2016
+113,2.0,1.0,-1.0,H,West Ham United,2016
+114,2.0,3.0,1.0,A,Chelsea,2017
+115,1.0,0.0,-1.0,H,West Bromwich Albion,2017
+116,1.0,1.0,-0.0,A,Tottenham Hotspur,2017
+117,0.0,1.0,1.0,H,Crystal Palace,2017
+118,1.0,1.0,-0.0,A,Liverpool,2017
+119,0.0,0.0,0.0,H,Huddersfield Town,2017
+120,0.0,1.0,1.0,A,Everton,2017
+121,1.0,1.0,0.0,H,West Ham United,2017
+122,3.0,0.0,-3.0,A,Manchester City,2017
+123,0.0,1.0,1.0,H,Newcastle United,2017
+124,0.0,1.0,1.0,A,Southampton,2017
+125,0.0,2.0,2.0,H,Swansea City,2017
+126,1.0,0.0,-1.0,H,Arsenal,2017
+127,1.0,2.0,1.0,A,AFC Bournemouth,2017
+128,1.0,0.0,-1.0,A,Leicester City,2017
+129,0.0,1.0,1.0,H,Watford,2017
+130,0.0,1.0,1.0,H,Stoke City,2017
+131,0.0,0.0,-0.0,A,Brighton and Hove Albion,2017
+132,3.0,0.0,-3.0,H,Tottenham Hotspur,2017
+133,2.0,2.0,-0.0,A,Manchester United,2017
+134,0.0,0.0,-0.0,A,Huddersfield Town,2017
+135,2.0,1.0,-1.0,H,Liverpool,2017
+136,1.0,0.0,-1.0,A,Crystal Palace,2017
+137,1.0,0.0,-1.0,H,Manchester United,2017
+138,1.0,1.0,-0.0,A,Newcastle United,2017
+139,1.0,1.0,0.0,H,Manchester City,2017
+140,1.0,0.0,-1.0,A,Swansea City,2017
+141,1.0,1.0,0.0,H,Southampton,2017
+142,1.0,2.0,1.0,H,Everton,2017
+143,0.0,3.0,3.0,A,West Ham United,2017
+144,1.0,2.0,1.0,A,West Bromwich Albion,2017
+145,1.0,2.0,1.0,A,Watford,2017
+146,1.0,2.0,1.0,H,Leicester City,2017
+147,2.0,1.0,-1.0,H,Chelsea,2017
+148,1.0,1.0,-0.0,A,Stoke City,2017
+149,0.0,0.0,0.0,H,Brighton and Hove Albion,2017
+150,5.0,0.0,-5.0,A,Arsenal,2017
+151,2.0,1.0,-1.0,H,AFC Bournemouth,2017

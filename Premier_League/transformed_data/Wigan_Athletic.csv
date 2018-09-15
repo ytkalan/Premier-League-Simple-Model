@@ -1,0 +1,267 @@
+,concede,goal,margin,mode,opponent,season
+0,2.0,1.0,-1.0,A,Newcastle United,2006
+1,0.0,1.0,1.0,H,Reading,2006
+2,1.0,0.0,-1.0,A,Portsmouth,2006
+3,2.0,2.0,-0.0,A,Everton,2006
+4,1.0,1.0,0.0,H,Watford,2006
+5,2.0,1.0,-1.0,A,Blackburn Rovers,2006
+6,3.0,1.0,-2.0,H,Manchester United,2006
+7,0.0,4.0,4.0,H,Manchester City,2006
+8,0.0,1.0,1.0,A,Fulham,2006
+9,0.0,1.0,1.0,A,Bolton Wanderers,2006
+10,2.0,3.0,1.0,H,Charlton Athletic,2006
+11,0.0,0.0,0.0,H,Aston Villa,2006
+12,3.0,1.0,-2.0,A,Tottenham Hotspur,2006
+13,4.0,0.0,-4.0,H,Liverpool,2006
+14,0.0,2.0,2.0,A,West Ham United,2006
+15,1.0,1.0,-0.0,A,Middlesbrough,2006
+16,1.0,0.0,-1.0,H,Arsenal,2006
+17,1.0,0.0,-1.0,H,Sheffield United,2006
+18,3.0,2.0,-1.0,H,Chelsea,2006
+19,3.0,1.0,-2.0,A,Manchester United,2006
+20,3.0,0.0,-3.0,H,Blackburn Rovers,2006
+21,4.0,0.0,-4.0,A,Chelsea,2006
+22,2.0,0.0,-2.0,H,Everton,2006
+23,3.0,2.0,-1.0,A,Reading,2006
+24,0.0,1.0,1.0,H,Portsmouth,2006
+25,2.0,1.0,-1.0,A,Arsenal,2006
+26,1.0,1.0,-0.0,A,Watford,2006
+27,0.0,1.0,1.0,H,Newcastle United,2006
+28,0.0,1.0,1.0,A,Manchester City,2006
+29,0.0,0.0,0.0,H,Fulham,2006
+30,1.0,0.0,-1.0,A,Charlton Athletic,2006
+31,3.0,1.0,-2.0,H,Bolton Wanderers,2006
+32,1.0,1.0,-0.0,A,Aston Villa,2006
+33,3.0,3.0,0.0,H,Tottenham Hotspur,2006
+34,2.0,0.0,-2.0,A,Liverpool,2006
+35,3.0,0.0,-3.0,H,West Ham United,2006
+36,1.0,0.0,-1.0,H,Middlesbrough,2006
+37,1.0,2.0,1.0,A,Sheffield United,2006
+38,2.0,1.0,-1.0,A,Everton,2007
+39,0.0,1.0,1.0,H,Middlesbrough,2007
+40,0.0,3.0,3.0,H,Sunderland,2007
+41,1.0,1.0,-0.0,A,West Ham United,2007
+42,1.0,0.0,-1.0,A,Newcastle United,2007
+43,1.0,1.0,0.0,H,Fulham,2007
+44,2.0,1.0,-1.0,A,Reading,2007
+45,1.0,0.0,-1.0,H,Liverpool,2007
+46,4.0,0.0,-4.0,A,Manchester United,2007
+47,2.0,0.0,-2.0,H,Portsmouth,2007
+48,3.0,2.0,-1.0,A,Birmingham City,2007
+49,2.0,0.0,-2.0,H,Chelsea,2007
+50,4.0,0.0,-4.0,A,Tottenham Hotspur,2007
+51,2.0,0.0,-2.0,A,Arsenal,2007
+52,1.0,1.0,0.0,H,Manchester City,2007
+53,4.0,1.0,-3.0,A,Bolton Wanderers,2007
+54,3.0,5.0,2.0,H,Blackburn Rovers,2007
+55,1.0,1.0,-0.0,A,Fulham,2007
+56,0.0,1.0,1.0,H,Newcastle United,2007
+57,2.0,1.0,-1.0,H,Aston Villa,2007
+58,1.0,1.0,-0.0,A,Liverpool,2007
+59,0.0,1.0,1.0,A,Derby County,2007
+60,2.0,1.0,-1.0,H,Everton,2007
+61,1.0,0.0,-1.0,A,Middlesbrough,2007
+62,0.0,1.0,1.0,H,West Ham United,2007
+63,2.0,0.0,-2.0,A,Sunderland,2007
+64,0.0,2.0,2.0,H,Derby County,2007
+65,0.0,0.0,-0.0,A,Manchester City,2007
+66,0.0,0.0,0.0,H,Arsenal,2007
+67,0.0,1.0,1.0,H,Bolton Wanderers,2007
+68,3.0,1.0,-2.0,A,Blackburn Rovers,2007
+69,2.0,0.0,-2.0,A,Portsmouth,2007
+70,0.0,2.0,2.0,H,Birmingham City,2007
+71,1.0,1.0,-0.0,A,Chelsea,2007
+72,1.0,1.0,0.0,H,Tottenham Hotspur,2007
+73,0.0,0.0,0.0,H,Reading,2007
+74,0.0,2.0,2.0,A,Aston Villa,2007
+75,2.0,0.0,-2.0,H,Manchester United,2007
+76,2.0,1.0,-1.0,A,West Ham United,2008
+77,1.0,0.0,-1.0,H,Chelsea,2008
+78,0.0,5.0,5.0,A,Hull City,2008
+79,1.0,1.0,0.0,H,Sunderland,2008
+80,0.0,0.0,-0.0,A,Tottenham Hotspur,2008
+81,1.0,2.0,1.0,H,Manchester City,2008
+82,1.0,0.0,-1.0,H,Middlesbrough,2008
+83,3.0,2.0,-1.0,A,Liverpool,2008
+84,4.0,0.0,-4.0,H,Aston Villa,2008
+85,2.0,0.0,-2.0,A,Fulham,2008
+86,1.0,2.0,1.0,A,Portsmouth,2008
+87,0.0,0.0,0.0,H,Stoke City,2008
+88,2.0,2.0,-0.0,A,Newcastle United,2008
+89,0.0,1.0,1.0,H,Everton,2008
+90,1.0,2.0,1.0,H,West Bromwich Albion,2008
+91,1.0,0.0,-1.0,A,Arsenal,2008
+92,0.0,3.0,3.0,H,Blackburn Rovers,2008
+93,1.0,2.0,1.0,H,Newcastle United,2008
+94,0.0,1.0,1.0,A,Bolton Wanderers,2008
+95,0.0,1.0,1.0,H,Tottenham Hotspur,2008
+96,1.0,0.0,-1.0,A,Manchester United,2008
+97,1.0,0.0,-1.0,A,Manchester City,2008
+98,1.0,1.0,0.0,H,Liverpool,2008
+99,0.0,0.0,-0.0,A,Aston Villa,2008
+100,0.0,0.0,0.0,H,Fulham,2008
+101,0.0,0.0,-0.0,A,Middlesbrough,2008
+102,2.0,1.0,-1.0,A,Chelsea,2008
+103,1.0,0.0,-1.0,H,West Ham United,2008
+104,1.0,2.0,1.0,A,Sunderland,2008
+105,0.0,1.0,1.0,H,Hull City,2008
+106,4.0,0.0,-4.0,A,Everton,2008
+107,4.0,1.0,-3.0,H,Arsenal,2008
+108,2.0,0.0,-2.0,A,Blackburn Rovers,2008
+109,0.0,0.0,0.0,H,Bolton Wanderers,2008
+110,3.0,1.0,-2.0,A,West Bromwich Albion,2008
+111,2.0,1.0,-1.0,H,Manchester United,2008
+112,2.0,0.0,-2.0,A,Stoke City,2008
+113,0.0,1.0,1.0,H,Portsmouth,2008
+114,0.0,2.0,2.0,A,Aston Villa,2009
+115,1.0,0.0,-1.0,H,Wolverhampton Wanderers,2009
+116,5.0,0.0,-5.0,H,Manchester United,2009
+117,2.0,1.0,-1.0,A,Everton,2009
+118,0.0,1.0,1.0,H,West Ham United,2009
+119,4.0,0.0,-4.0,A,Arsenal,2009
+120,1.0,3.0,2.0,H,Chelsea,2009
+121,2.0,1.0,-1.0,A,Hull City,2009
+122,1.0,1.0,0.0,H,Manchester City,2009
+123,1.0,3.0,2.0,A,Burnley,2009
+124,4.0,0.0,-4.0,A,Portsmouth,2009
+125,1.0,1.0,0.0,H,Fulham,2009
+126,9.0,1.0,-8.0,A,Tottenham Hotspur,2009
+127,0.0,1.0,1.0,H,Sunderland,2009
+128,3.0,2.0,-1.0,H,Birmingham City,2009
+129,2.0,2.0,-0.0,A,Stoke City,2009
+130,2.0,1.0,-1.0,A,Liverpool,2009
+131,1.0,1.0,0.0,H,Blackburn Rovers,2009
+132,5.0,0.0,-5.0,A,Manchester United,2009
+133,0.0,2.0,2.0,A,Wolverhampton Wanderers,2009
+134,2.0,1.0,-1.0,A,Blackburn Rovers,2009
+135,1.0,0.0,-1.0,H,Everton,2009
+136,1.0,1.0,-0.0,A,Sunderland,2009
+137,1.0,1.0,0.0,H,Stoke City,2009
+138,0.0,0.0,0.0,H,Bolton Wanderers,2009
+139,3.0,0.0,-3.0,H,Tottenham Hotspur,2009
+140,1.0,0.0,-1.0,A,Birmingham City,2009
+141,0.0,1.0,1.0,H,Liverpool,2009
+142,4.0,0.0,-4.0,A,Bolton Wanderers,2009
+143,2.0,1.0,-1.0,H,Aston Villa,2009
+144,0.0,1.0,1.0,H,Burnley,2009
+145,3.0,0.0,-3.0,A,Manchester City,2009
+146,2.0,1.0,-1.0,A,Fulham,2009
+147,0.0,0.0,0.0,H,Portsmouth,2009
+148,2.0,3.0,1.0,H,Arsenal,2009
+149,3.0,2.0,-1.0,A,West Ham United,2009
+150,2.0,2.0,0.0,H,Hull City,2009
+151,8.0,0.0,-8.0,A,Chelsea,2009
+152,4.0,0.0,-4.0,H,Blackpool,2010
+153,6.0,0.0,-6.0,H,Chelsea,2010
+154,0.0,1.0,1.0,A,Tottenham Hotspur,2010
+155,1.0,1.0,0.0,H,Sunderland,2010
+156,2.0,0.0,-2.0,H,Manchester City,2010
+157,0.0,0.0,-0.0,A,Birmingham City,2010
+158,0.0,2.0,2.0,H,Wolverhampton Wanderers,2010
+159,2.0,2.0,-0.0,A,Newcastle United,2010
+160,1.0,1.0,0.0,H,Bolton Wanderers,2010
+161,2.0,0.0,-2.0,A,Fulham,2010
+162,2.0,1.0,-1.0,A,Blackburn Rovers,2010
+163,1.0,1.0,0.0,H,Liverpool,2010
+164,0.0,1.0,1.0,H,West Bromwich Albion,2010
+165,2.0,0.0,-2.0,A,Manchester United,2010
+166,3.0,1.0,-2.0,A,West Ham United,2010
+167,2.0,2.0,0.0,H,Stoke City,2010
+168,0.0,0.0,-0.0,A,Everton,2010
+169,1.0,2.0,1.0,A,Wolverhampton Wanderers,2010
+170,2.0,2.0,0.0,H,Arsenal,2010
+171,1.0,0.0,-1.0,H,Newcastle United,2010
+172,1.0,1.0,-0.0,A,Bolton Wanderers,2010
+173,1.0,1.0,0.0,H,Fulham,2010
+174,3.0,0.0,-3.0,A,Arsenal,2010
+175,2.0,1.0,-1.0,H,Aston Villa,2010
+176,2.0,2.0,-0.0,A,West Bromwich Albion,2010
+177,3.0,4.0,1.0,H,Blackburn Rovers,2010
+178,1.0,1.0,-0.0,A,Liverpool,2010
+179,4.0,0.0,-4.0,H,Manchester United,2010
+180,1.0,0.0,-1.0,A,Manchester City,2010
+181,1.0,2.0,1.0,H,Birmingham City,2010
+182,0.0,0.0,0.0,H,Tottenham Hotspur,2010
+183,1.0,0.0,-1.0,A,Chelsea,2010
+184,1.0,3.0,2.0,A,Blackpool,2010
+185,4.0,2.0,-2.0,A,Sunderland,2010
+186,1.0,1.0,0.0,H,Everton,2010
+187,1.0,1.0,-0.0,A,Aston Villa,2010
+188,2.0,3.0,1.0,H,West Ham United,2010
+189,0.0,1.0,1.0,A,Stoke City,2010
+190,1.0,1.0,0.0,H,Norwich City,2011
+191,0.0,0.0,-0.0,A,Swansea City,2011
+192,0.0,2.0,2.0,H,Queens Park Rangers,2011
+193,3.0,0.0,-3.0,A,Manchester City,2011
+194,3.0,1.0,-2.0,A,Everton,2011
+195,2.0,1.0,-1.0,H,Tottenham Hotspur,2011
+196,2.0,0.0,-2.0,A,Aston Villa,2011
+197,3.0,1.0,-2.0,H,Bolton Wanderers,2011
+198,1.0,0.0,-1.0,A,Newcastle United,2011
+199,2.0,0.0,-2.0,H,Fulham,2011
+200,3.0,1.0,-2.0,A,Wolverhampton Wanderers,2011
+201,3.0,3.0,0.0,H,Blackburn Rovers,2011
+202,1.0,2.0,1.0,A,Sunderland,2011
+203,4.0,0.0,-4.0,H,Arsenal,2011
+204,1.0,2.0,1.0,A,West Bromwich Albion,2011
+205,1.0,1.0,0.0,H,Chelsea,2011
+206,0.0,0.0,0.0,H,Liverpool,2011
+207,5.0,0.0,-5.0,A,Manchester United,2011
+208,2.0,2.0,-0.0,A,Stoke City,2011
+209,4.0,1.0,-3.0,H,Sunderland,2011
+210,1.0,0.0,-1.0,H,Manchester City,2011
+211,3.0,1.0,-2.0,A,Queens Park Rangers,2011
+212,3.0,1.0,-2.0,A,Tottenham Hotspur,2011
+213,1.0,1.0,0.0,H,Everton,2011
+214,1.0,2.0,1.0,A,Bolton Wanderers,2011
+215,0.0,0.0,0.0,H,Aston Villa,2011
+216,2.0,0.0,-2.0,H,Swansea City,2011
+217,1.0,1.0,-0.0,A,Norwich City,2011
+218,1.0,1.0,0.0,H,West Bromwich Albion,2011
+219,1.0,2.0,1.0,A,Liverpool,2011
+220,0.0,2.0,2.0,H,Stoke City,2011
+221,2.0,1.0,-1.0,A,Chelsea,2011
+222,0.0,1.0,1.0,H,Manchester United,2011
+223,1.0,2.0,1.0,A,Arsenal,2011
+224,2.0,1.0,-1.0,A,Fulham,2011
+225,0.0,4.0,4.0,H,Newcastle United,2011
+226,0.0,1.0,1.0,A,Blackburn Rovers,2011
+227,2.0,3.0,1.0,H,Wolverhampton Wanderers,2011
+228,2.0,0.0,-2.0,H,Chelsea,2012
+229,0.0,2.0,2.0,A,Southampton,2012
+230,2.0,2.0,0.0,H,Stoke City,2012
+231,4.0,0.0,-4.0,A,Manchester United,2012
+232,2.0,1.0,-1.0,H,Fulham,2012
+233,1.0,0.0,-1.0,A,Sunderland,2012
+234,2.0,2.0,0.0,H,Everton,2012
+235,2.0,1.0,-1.0,A,Swansea City,2012
+236,1.0,2.0,1.0,H,West Ham United,2012
+237,0.0,1.0,1.0,A,Tottenham Hotspur,2012
+238,2.0,1.0,-1.0,H,West Bromwich Albion,2012
+239,3.0,0.0,-3.0,A,Liverpool,2012
+240,2.0,3.0,1.0,H,Reading,2012
+241,2.0,0.0,-2.0,H,Manchester City,2012
+242,3.0,0.0,-3.0,A,Newcastle United,2012
+243,2.0,2.0,0.0,H,Queens Park Rangers,2012
+244,2.0,1.0,-1.0,A,Norwich City,2012
+245,1.0,0.0,-1.0,H,Arsenal,2012
+246,2.0,1.0,-1.0,A,Everton,2012
+247,0.0,3.0,3.0,A,Aston Villa,2012
+248,4.0,0.0,-4.0,H,Manchester United,2012
+249,1.0,1.0,-0.0,A,Fulham,2012
+250,3.0,2.0,-1.0,H,Sunderland,2012
+251,2.0,2.0,-0.0,A,Stoke City,2012
+252,2.0,2.0,0.0,H,Southampton,2012
+253,4.0,1.0,-3.0,A,Chelsea,2012
+254,0.0,3.0,3.0,A,Reading,2012
+255,4.0,0.0,-4.0,H,Liverpool,2012
+256,1.0,2.0,1.0,H,Newcastle United,2012
+257,0.0,1.0,1.0,H,Norwich City,2012
+258,1.0,1.0,-0.0,A,Queens Park Rangers,2012
+259,1.0,0.0,-1.0,A,Manchester City,2012
+260,2.0,0.0,-2.0,A,West Ham United,2012
+261,2.0,2.0,0.0,H,Tottenham Hotspur,2012
+262,2.0,3.0,1.0,A,West Bromwich Albion,2012
+263,3.0,2.0,-1.0,H,Swansea City,2012
+264,4.0,1.0,-3.0,A,Arsenal,2012
+265,2.0,2.0,0.0,H,Aston Villa,2012
