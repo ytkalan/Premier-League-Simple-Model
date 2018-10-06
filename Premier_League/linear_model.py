@@ -28,10 +28,8 @@ def get_cross_validation_score(model, X, y):
     for train_index, test_index in kf.split(X):
         X_train, X_test = X[train_index], X[test_index]
         y_train, y_test = y[train_index], y[test_index]
-        pca = PCA(n_components=2)
-        transformed_data = pca.fit_transform(X_train)
-        model.fit(transformed_data, y_train)
-        error += least_square_score(model.predict(pca.transform(X_test)), y_test)
+        model.fit(X_train, y_train)
+        error += least_square_score(model.predict(X_test), y_test)
     error = (error/len(y))**0.5
     return error
 

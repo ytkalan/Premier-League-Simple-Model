@@ -6,7 +6,7 @@ script_dir = os.path.dirname(__file__)
 folder_dir = 'transformed_data'
 window = 5
 
-with open('{0}{1}/data_set'.format(script_dir, folder_dir), 'rb') as source_file:
+with open('{0}/{1}/data_set'.format(script_dir, folder_dir), 'rb') as source_file:
     input_list = pickle.load(source_file)
 
 usable_data = list(filter(lambda record: record['season'] > 2008, input_list))
@@ -51,11 +51,10 @@ for record in usable_data:
         int(head_to_head_record),
         int(head_to_head_margin),
     ]
-    print('Calculating: {0}'.format(record['index']))
     data.append(massage_data)
 
-with open('{0}{1}/{2}'.format(script_dir, 'trend', 'data'), 'wb') as f:
+with open('{0}/{1}/{2}'.format(script_dir, 'trend', 'data'), 'wb') as f:
   pickle.dump(data, f)
 
-with open('{0}{1}/{2}'.format(script_dir, 'trend', 'label'), 'wb') as f:
+with open('{0}/{1}/{2}'.format(script_dir, 'trend', 'label'), 'wb') as f:
   pickle.dump(label, f)

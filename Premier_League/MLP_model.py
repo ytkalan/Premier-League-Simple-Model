@@ -39,16 +39,16 @@ def get_cross_validation_score(model, X, y):
 regularization = [10**i for i in range(-5, 5, 3)]
 score = []
 
-# for r in regularization:
-#    mlp_model = MLPClassifier(alpha=r, learning_rate="adaptive", max_iter=2000)
-# #    mlp_model = svm.SVC(gamma=0.00001, C=r, kernel='sigmoid')
-#    score.append(get_cross_validation_score(mlp_model, train_data, train_labels))
+for r in regularization:
+   mlp_model = MLPClassifier(alpha=r, learning_rate="adaptive", max_iter=2000)
+#    mlp_model = svm.SVC(gamma=0.00001, C=r, kernel='sigmoid')
+   score.append(get_cross_validation_score(mlp_model, train_data, train_labels))
 
-# plt.plot(np.log10(regularization), score)
-# plt.title('Ridge')
+plt.plot(np.log10(regularization), score)
+plt.title('Ridge')
 
-# plt.show()
+plt.show()
 
-mlp_model = MLPClassifier(alpha=10, learning_rate="adaptive", max_iter=2000)
-mlp_model.fit(train_data, train_labels)
-print(mlp_model.predict([[-4, -5, 1, 1, -3, -3]]))
+# mlp_model = MLPClassifier(alpha=10, learning_rate="adaptive", max_iter=2000)
+# mlp_model.fit(train_data, train_labels)
+# print(mlp_model.predict([[-4, -5, 1, 1, -3, -3]]))
