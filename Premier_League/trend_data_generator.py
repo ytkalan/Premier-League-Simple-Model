@@ -1,7 +1,6 @@
 import os
 import pickle
 import csv
-import pickle
 
 script_dir = os.path.dirname(__file__)
 folder_dir = 'transformed_data'

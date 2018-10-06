@@ -2,9 +2,10 @@ import pickle
 import numpy as np
 import os
 from sklearn.decomposition import PCA
-from sklearn.linear_model import Ridge, LassoLars, LogisticRegression
 from sklearn.model_selection import KFold
-from sklearn.metrics import accuracy_score
+from sklearn.neural_network import MLPClassifier
+from sklearn import svm
+from sklearn.naive_bayes import GaussianNB
 import matplotlib.pyplot as plt
 
 script_dir = os.path.dirname(__file__)
@@ -35,45 +36,19 @@ def get_cross_validation_score(model, X, y):
     error = (error/len(y))**0.5
     return error
 
-regularization = [10**i for i in range(-20, 15, 1)]
+regularization = [10**i for i in range(-5, 5, 3)]
 score = []
 
-for r in regularization:
-    lm_model = Ridge(alpha=r)
-    score.append(get_cross_validation_score(lm_model, train_data, train_labels))
+# for r in regularization:
+#    mlp_model = MLPClassifier(alpha=r, learning_rate="adaptive", max_iter=2000)
+# #    mlp_model = svm.SVC(gamma=0.00001, C=r, kernel='sigmoid')
+#    score.append(get_cross_validation_score(mlp_model, train_data, train_labels))
 
-plt.subplot(221)
-plt.plot(np.log10(regularization), score)
-plt.title('Ridge')
+# plt.plot(np.log10(regularization), score)
+# plt.title('Ridge')
 
-score = []
+# plt.show()
 
-for r in regularization:
-    lm_model = LassoLars(alpha=r)
-    score.append(get_cross_validation_score(lm_model, train_data, train_labels))
-
-plt.subplot(222)
-plt.plot(np.log10(regularization), score)
-plt.title('LassoLars')
-
-score = []
-
-for r in regularization:
-    lm_model = LogisticRegression(penalty='l2', C=r, max_iter=2000)
-    score.append(get_cross_validation_score(lm_model, train_data, train_labels))
-
-plt.subplot(223)
-plt.plot(np.log10(regularization), score)
-plt.title('Logistic Ridge')
-
-score = []
-
-for r in regularization:
-    lm_model = LogisticRegression(penalty='l1', C=r, max_iter=2000)
-    score.append(get_cross_validation_score(lm_model, train_data, train_labels))
-
-plt.subplot(224)
-plt.plot(np.log10(regularization), score)
-plt.title('Logistic Lasso')
-
-plt.show()
+mlp_model = MLPClassifier(alpha=10, learning_rate="adaptive", max_iter=2000)
+mlp_model.fit(train_data, train_labels)
+print(mlp_model.predict([[-4, -5, 1, 1, -3, -3]]))
