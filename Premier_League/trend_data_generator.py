@@ -10,7 +10,7 @@ window = 5
 with open('{0}{1}/data_set'.format(script_dir, folder_dir), 'rb') as source_file:
     input_list = pickle.load(source_file)
 
-usable_data = list(filter(lambda record: record['season'] > 2012, input_list))
+usable_data = list(filter(lambda record: record['season'] > 2008, input_list))
 
 def get_head_to_head_record(index, target_team, opponent, window):
     related_record = [record for record in input_list if (
@@ -27,7 +27,7 @@ def get_team_momentum(index, target_team, window):
     )]
     return sorted(related_record, key=lambda k: k['index'])[0: min(len(related_record), window)]
 
-label = [record['margin'] for record in usable_data]
+label = [record['margin']/abs(record['margin']) if record['margin'] != 0 else 0 for record in usable_data]
 data = []
 
 for record in usable_data:
