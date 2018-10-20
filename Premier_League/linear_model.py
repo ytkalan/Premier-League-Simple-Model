@@ -19,7 +19,12 @@ with open('{0}{1}/label'.format(script_dir, folder_dir), 'rb') as source_file:
 def least_square_score(y_true, y_pred):
     error = 0
     for t, p in zip(y_true, y_pred):
-        error += (t - p)**2
+        if (t/(p+0.0001) > 0):
+            error += 0.5*(t - p)**2
+        elif (t/(p+0.0001) < 0):
+            error += 2*(t-p)**2
+        else:
+            error += (t - p)**2
     return (error)
 
 def get_cross_validation_score(model, X, y):
@@ -33,45 +38,42 @@ def get_cross_validation_score(model, X, y):
     error = (error/len(y))**0.5
     return error
 
-regularization = [10**i for i in range(-20, 15, 1)]
+regularization = [10**i for i in range(-20, 20, 1)]
 score = []
 
 for r in regularization:
     lm_model = Ridge(alpha=r)
     score.append(get_cross_validation_score(lm_model, train_data, train_labels))
 
-plt.subplot(221)
 plt.plot(np.log10(regularization), score)
 plt.title('Ridge')
 
-score = []
+# for r in regularization:
+#     lm_model = LassoLars(alpha=r)
+#     score.append(get_cross_validation_score(lm_model, train_data, train_labels))
 
-for r in regularization:
-    lm_model = LassoLars(alpha=r)
-    score.append(get_cross_validation_score(lm_model, train_data, train_labels))
+# plt.subplot(222)
+# plt.plot(np.log10(regularization), score)
+# plt.title('LassoLars')
 
-plt.subplot(222)
-plt.plot(np.log10(regularization), score)
-plt.title('LassoLars')
+# score = []
 
-score = []
+# for r in regularization:
+#     lm_model = LogisticRegression(penalty='l2', C=r, max_iter=2000)
+#     score.append(get_cross_validation_score(lm_model, train_data, train_labels))
 
-for r in regularization:
-    lm_model = LogisticRegression(penalty='l2', C=r, max_iter=2000)
-    score.append(get_cross_validation_score(lm_model, train_data, train_labels))
+# plt.subplot(223)
+# plt.plot(np.log10(regularization), score)
+# plt.title('Logistic Ridge')
 
-plt.subplot(223)
-plt.plot(np.log10(regularization), score)
-plt.title('Logistic Ridge')
+# score = []
 
-score = []
+# for r in regularization:
+#     lm_model = LogisticRegression(penalty='l1', C=r, max_iter=2000)
+#     score.append(get_cross_validation_score(lm_model, train_data, train_labels))
 
-for r in regularization:
-    lm_model = LogisticRegression(penalty='l1', C=r, max_iter=2000)
-    score.append(get_cross_validation_score(lm_model, train_data, train_labels))
-
-plt.subplot(224)
-plt.plot(np.log10(regularization), score)
-plt.title('Logistic Lasso')
+# plt.subplot(224)
+# plt.plot(np.log10(regularization), score)
+# plt.title('Logistic Lasso')
 
 plt.show()

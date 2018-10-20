@@ -14,19 +14,20 @@ with open('{0}{1}/data'.format(script_dir, folder_dir), 'rb') as source_file:
 with open('{0}{1}/label'.format(script_dir, folder_dir), 'rb') as source_file:
     train_labels = np.array(pickle.load(source_file))
 
-ridge_model = Ridge(alpha=10**-20, max_iter=5000)
+ridge_model = Ridge(alpha=10**-20, max_iter=50000)
 ridge_model.fit(train_data, train_labels)
 
 match_to_predict = [
-    ('Burnley', 'Huddersfield Town'),
-    ('Crystal Palace', 'Wolverhampton Wanderers'),
-    ('Leicester City', 'Everton'),
-    ('Tottenham Hotspur', 'Cardiff City'),
-    ('Watford', 'AFC Bournemouth'),
-    ('Manchester United', 'Newcastle United'),
-    ('Fulham', 'Arsenal'),
-    ('Southampton', 'Chelsea'),
-    ('Liverpool', 'Manchester City')
+    ('Chelsea', 'Manchester United'),
+    ('AFC Bournemouth', 'Southampton'),
+    ('Cardiff City', 'Fulham'),
+    ('Manchester City', 'Burnley'),
+    ('Newcastle United', 'Brighton and Hove Albion'),
+    ('West Ham United', 'Tottenham Hotspur'),
+    ('Wolverhampton Wanderers', 'Watford'),
+    ('Huddersfield Town', 'Liverpool'),
+    ('Everton', 'Crystal Palace'),
+    ('Arsenal', 'Leicester City')
 ]
 
 for home, away in match_to_predict:
