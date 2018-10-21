@@ -2,19 +2,37 @@ import os
 import re
 import pickle
 import pandas as pd
+from pymongo import MongoClient
+from pymongo import errors
 
-script_dir = os.path.dirname(__file__)
+script_dir = os.path.dirname(__file__) 
 source_data = pd.read_csv('{0}{1}'.format(script_dir, 'data/results.csv'))
+
+db_name = 'premier'
+collection_name = 'transformed_data'
+
+client = MongoClient('localhost', 27017)
+
+db = client[db_name]
+collection = db[collection_name]
 
 # Simplify Season Notation
 source_data['season'] = source_data['season'].apply(lambda data: re.search(r'([0-9]+)', data).group(1))
 
 transformed_data = []
 
+def check_db_exists():
+    try:
+        client.server_info()
+        return True
+    except errors.ServerSelectionTimeoutError as err:
+        return False
+db_exists = check_db_exists()
 
 # transform data to data by team
 def data_transformation(row, index, home=True):
     data = {
+        '_id' :index,
         'index': index,
         'target_team': row['home_team'] if home else row['away_team'], 
         'mode': 'H' if home else 'A',
@@ -25,7 +43,8 @@ def data_transformation(row, index, home=True):
         'margin': int((1 if home else -1) * (row['home_goals'] - row['away_goals'])),
     }
     transformed_data.append(data)
-
+    if db_exists:
+        collection.save(data)
 
 for index, row in source_data.iterrows():
     inverted_index = source_data.shape[0] - index
