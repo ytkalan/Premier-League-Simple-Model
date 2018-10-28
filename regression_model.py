@@ -12,7 +12,7 @@ for year in usable_year:
             window = window
         ).get_trend_data()
 
-        sgd_model = SGDClassifier(max_iter=5000)
-        sgd_model.fit(data, label)
-        score = sgd_model.score(data, label)
+        lm_model = LogisticRegression(max_iter=5000, class_weight = "balanced")
+        lm_model.fit(data, label)
+        score = lm_model.score(data, label)
         print('window = {0}, data from {1}, score : {2}'.format(window, year, score))
