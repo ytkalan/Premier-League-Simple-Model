@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 
+// use node odd_scraper.js
 const scrape = async (url) => {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
